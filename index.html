@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <button class="menu-toggle">
+    ☰
+    </button>
     <!-- Navigation -->
     <header class="navbar">
         <nav class="nav-container">
             <!-- Logo du site -->
-            <div class="logo">Brths core<span class="logo-dot">.</span></div>  
+            <div class="logo">BrthsQuery<span class="logo-dot">.</span></div>  
             <!-- Menu de navigation -->
             <div class="nav-links">
                 <a href="index.html">Accueil</a>
-                <a href="Apropos.html">À propos</a>
-                <a href="Competences.html">Compétences</a>
-                <a href="Portfolio.html">Portfolio</a>
+                <a href="apropos.html">À propos</a>
+                <a href="competences.html">Compétences</a>
+                <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
             </div>
         </nav>
@@ -37,7 +39,7 @@
             <!-- Boutons d'action -->
             <div class="hero-buttons">
                 <a class="btn btn-primary" href="Portfolio.html">Voir mon portfolio</a>
-                <a class="btn btn-outline" href="CV.pdf" download>Télécharger mon CV</a>
+                <a class="btn btn-outline" href="cv_berthus.pdf" download>Télécharger mon CV</a>
                 <a class="btn btn-outline" href="contact.html">Me Contacter</a>
             </div>
             <div class="stats">
@@ -46,7 +48,7 @@
                     <div class="stat-label">Projets</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-num">3+</div>
+                    <div class="stat-num">4+</div>
                     <div class="stat-label">Technologies Acquises</div>
                 </div>
                 <div class="stat-item">
@@ -56,241 +58,9 @@
             </div>
         </div>
     </section>
-
-    <!-- Contenue de la page À propos -->
-    <section id="apropos" class="section">
-        <div class="section-inner">
-            <span class="eyebrow">À propos</span>
-            <h2 class="section-title">Qui suis-je ?</h2>
-
-            <div class="about-grid">
-                <div class="about-text">
-                    <p>Salut, je suis Kopoin Berthus Delcy Leonel.<br>Je conçois des applications web &amp; mobiles modernes et des solutions intelligentes capables de résoudre des problèmes concrets grâce à la puissance du développement logiciel, de la donnée et de l'Intelligence Artificielle.</p>
-                    <p>Je suis passionné par la création de solutions innovantes qui ont un impact positif sur la vie des gens.
-                        Avec une détermination solide pour toujours apprendre plus en développement web &amp; mobile, en gestion de données et en IA, je suis constamment à la recherche de nouveaux défis pour continuer à apprendre et à grandir dans ce domaine en constante évolution.</p>
-                    
-                    <h3 class="sub-title">Mes objectifs</h3>
-                    <ul class="about-list">
-                        <li>Devenir un developpeur compétent</li>
-                        <li>Développer des projets IA à fort impact</li>
-                    </ul> 
-                    <a href="CV 1 Kopoin Berthus (Reform).pdf" class="btn btn-primary" download>Télécharger mon CV</a> 
-                </div>
-                <div class="timeline">
-                    <h3 class="sub-title">Mon parcours</h3>
-
-                    <div class="tl-item">
-                        <div class="tl-dot"></div>
-                        <div class="tl-body">
-                            <h4>2025 — Découverte de la programmation</h4>
-                            <ul>
-                                <li>Entrée dans le monde de la programmation.</li>
-                                <li>Apprentissage des bases du développement web (HTML, CSS, JavaScript).</li>
-                                <li>Découverte des concepts de base de l'Intelligence Artificielle.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="tl-item">
-                        <div class="tl-dot"></div>
-                        <div class="tl-body">
-                            <h4>2026 — Approfondissement de mes compétences</h4>
-                            <ul>
-                                <li>Perfectionnement en bases de données et en SQL.</li>
-                                <li>Début de l'apprentissage de la Data et de l'Intelligence Artificielle.</li>
-                                <li>Découverte de Python et des concepts fondamentaux de l'analyse de données et du Machine Learning.</li>
-                                <li>Développement de projets pour mettre en pratique mes connaissances.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="tl-item">
-                        <div class="tl-dot tl-dot--active"></div>
-                        <div class="tl-body">
-                            <h4>Aujourd'hui</h4>
-                            <ul>
-                                <li>En formation continue en développement web, Data et Intelligence Artificielle.</li>
-                                <li>Construction progressive de mes compétences pour devenir un développeur Full Stack orienté IA.</li>
-                                <li>Etudiant en IDA à HETEC.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contenue de la page Compétences -->
-    <section id="competences" class="section section--alt">
-        <div class="section-inner">
-            <span class="eyebrow">Compétences</span>
-            <h2>Ce que je sais faire</h2>
-
-            <!--Contenu de la grille des compétences -->
-            <div class="skills-grid">
-                <!--Carte de compétence web-->
-                <div class="skill-card">
-                    <h3 class="skills-card-title">Développement web</h3>
-                    <div class="skill-row">
-                        <span class="skill-name">HTML/CSS</span>
-                        <span class="skill-level">Avancé</span>
-                    </div>
-                    <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
-                    <div class="skill-row">
-                        <span class="skill-name">JavaScript</span>
-                        <span class="skill-level">Débutant</span>
-                    </div>   
-                    <div class="skill-bar"><div class="skill-fill" style="width: 15%"></div></div><!--Barre d évolution-->
-                </div>
-                <!--Carte de compétence base de données-->
-                <div class="skill-card">
-                    <h3>Base de données</h3>
-                    <div class="skill-row">
-                        <span class="skill-name">SQL</span>
-                        <span class="skill-level">Débutant</span>
-                    </div>
-                    <div class="skill-bar"><div class="skill-fill" style="width: 15%"></div></div>
-                    <div class="skill-row">
-                        <span class="skill-name">NoSQL</span>
-                        <span class="skill-level">Débutant</span>
-                    </div>
-                    <div class="skill-bar"><div class="skill-fill" style="width: 5%"></div></div>
-                </div>
-                <!--Carte de compétence Data & IA-->
-                <div class="skill-card">
-                    <h3>Data & IA</h3>
-                    <div class="skill-row">
-                        <span class="skill-name">Python</span>
-                        <span class="skill-level">Intermédiaire</span>
-                    </div>
-                    <div class="skill-bar"><div class="skill-fill" style="width: 50%"></div></div>
-                    <div class="skill-row">
-                        <span class="skill-name">Machine Learning</span>
-                        <span class="skill-level">Débutant</span>
-                    </div> 
-                    <div class="skill-bar"><div class="skill-fill" style="width: 5%"></div></div>
-                </div>
-                <!--Carte de compétence Outils-->
-                <div class="skill-card">
-                    <h3>Outils</h3>
-                    <div class="skill-row">
-                        <span class="skill-name">Github</span>
-                        <span class="skill-level">Intermédiare</span>
-                    </div>
-                    <div class="skill-bar"><div class="skill-fill" style="width: 50%"></div></div>
-                    <div class="skill-row">
-                        <span class="skill-name">Docker</span>
-                        <span class="skill-level">Débutant</span>
-                    </div>
-                    <div class="skill-bar"><div class="skill-fill" style="width: 5%"></div></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contenue de la page Portfolio/Projets -->
-    <section id="portfolio" class="section">
-        <div class="section-inner">
-            <span class="eyebrow">Portfolio</span>
-            <h2 class="section-title">Mes projets</h2>
-            <p class="section-sub">Une selection de projets réalisés pendant mon apprentissage.</p>
-
-            <div class="filters">
-                <span class="filter-btn active">tous</span>
-                <span class="filter-btn">Web</span>
-                <span class="filter-btn">IA</span>
-                <span class="filter-btn">Mobile</span>
-            </div>
-
-                <!-- Grid des projets -->
-            <div class="projects-grid">
-
-                <!-- Carte de projet 1 -->
-                <div class="project-card">
-                    <div class="project-img"><img src="image campushub.jpeg"></div>
-                    <div class="project-body">
-                        <h3 class="project-name">CampusHUb</h3>
-                        <p class="project-desc">CampusHub est un projet web visant à améliorer la communication et l’accès aux informations entre etudiant d’une meme université ou d'université différente . Il offre aux étudiants un espace centralisé pour consulter les ressources, suivre les actualités et découvrir les événements du campus.</p>
-                        <div class="project-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">Technologies 3</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <!-- Carte de projet 2 -->
-                    <div class="project-img">IMAGE2(projet 2)</div>
-                    <div class="project-body">
-                        <h3 class="project-name">Projet 2</h3>
-                        <p class="project-desc">Description du projet 2</p>
-                        <div class="project-tags">
-                            <span class="tag">Technologies 1</span>
-                            <span class="tag">Technologies 2</span>
-                            <span class="tag">Technologies 3</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <!-- Carte de projet 3 -->
-                    <div class="project-img">IMAGE3(projet 3)</div>
-                    <div class="project-body">
-                        <h3 class="project-name">Projet 3</h3>
-                        <p class="project-desc">Description du projet 3</p>
-                        <div class="project-tags">
-                            <span class="tag">Technologies 1</span>
-                            <span class="tag">Technologies 2</span>
-                            <span class="tag">Technologies 3</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contenue de la page Contact -->
-    <section id="contact" class="section section--alt">
-        <div class="section-inner">
-            <span class="eyebrow">Contact</span>
-            <h2 class="section-title">Travaillons ensemble</h2>
-            <p class="section-sub">Une question, un projet ou une opportunité ? <br>N'hésitez pas à me contacter !</p>
-            
-            <!--Grille de contact-->
-            <div class="contact-grid">
-
-                <form class="contact-form">
-                    <div class="form-field">
-                        <label for="nom">Nom</label><br>
-                        <input type="text" id="nom" placeholder="Votre nom">
-                    </div>
-                    <div class="form-field">
-                        <label for="email">Adresse e-mail</label><br>
-                        <input type="email" id="email" placeholder="vous@exemple.com">
-                    </div>
-                    <div class="form-field">
-                        <label for="sujet">Sujet</label><br>
-                        <input type="text" id="sujet" placeholder="Sujet du message">
-                    </div>
-                    <div class="form-field">
-                        <label for="message">Message</label><br>
-                        <textarea id="message" rows="5" placeholder="Votre message..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
-                </form>
-
-                <div class="contact-side">
-                    <h3>Retrouvez moi en ligne</h3>
-                    <p>Disponible pour les opportunités, collaborations et échanges autour de la tech.</p>
-                    <div class="socials">
-                        <a class="social-btn" href="https://www.linkedin.com/in/berthus-delcy-leonel-kopoin-03b8153b3" target="_blank">Linkedin</a>
-                        <a class="social-btn" href="https://www.instagram.com/berthuskopoin" target="_blank">Instagram</a>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </section>
     <footer class="footer">
         <p>&copy; 2026 Berthus Kopoin. Tous droits réservés.</p>
     </footer>
+    <script src="mon script.js"></script>
 </body>
 </html>
